@@ -1,2 +1,2 @@
 # tazza
-18/10/2025 : Un tuto basé sur les fruits et légumes bio, de Code4Education. L'intérêt est principalement dû au fait de la création de multi-pages HTML auxquelles on accède en cliquant sur la navbar. Par ailleurs, il faut noter que l'application utilise Bootstrap. 
+18/10/2025 : Un tuto basé sur les fruits et légumes bio, élaboré par Code4Education. L'intérêt est principalement dû au fait de la création de multi-pages HTML auxquelles on accède en cliquant sur la navbar. Par ailleurs, il faut noter que l'application utilise Bootstrap. 

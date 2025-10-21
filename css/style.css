@@ -1,6 +1,7 @@
 /* General CSS */
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 *,
 *::before,
@@ -335,13 +336,28 @@ section {
     min-height: 90vh;
 }
 
+.banner_section .grand-titre{
+    font-family: "Great Vibes", cursive;
+    font-size: 11rem;
+    font-weight: bold;
+    color: #b98a4c;
+    margin: 10rem 5rem;
+    letter-spacing: 0.05em;
+    animation: fadeIn 2s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
 .banner_section .carousel-item {
     padding: 3rem 0;
     height: 90vh;
 }
 
 .banner_section .carousel-caption {
-    top: 30%;
+    top: 1%;
     bottom: 0;
     left: 3%;
     right: 0;
@@ -443,7 +459,7 @@ section {
     position: relative;
     overflow: hidden;
     cursor: pointer;
-    border: transparent;
+    /* border: transparent; */
     border: 0.2rem solid var(--light-color);
     padding: 2rem 1rem;
     position: relative;
@@ -470,7 +486,7 @@ section {
 
 }
 
-.landing_product_section .product-detail {
+.landing_product_section .vedette-detail {
     position: absolute;
     bottom: -22rem;
     right: 0;
@@ -481,7 +497,7 @@ section {
     transition: all 0.5s ease;
 }
 
-.landing_product_section .product-card:hover .product-detail {
+.landing_product_section .product-card:hover .vedette-detail {
     bottom: 0;
 }
 
@@ -494,8 +510,6 @@ section {
   transform: translateY(-5px) scale(1.05);
   filter: brightness(1.1) saturate(1.2);
 }
-
-
 
 /* Product CSS */
 
@@ -518,7 +532,7 @@ section {
     margin-bottom: 8%;
 }
 
-.product_section .product-details p {
+.product_section .vedette-details p {
     margin-bottom: 2.5rem;
 }
 
@@ -665,6 +679,7 @@ section {
     outline: none;
     box-shadow: none;
     border-color: var(--secondary-color);
+    border: 2px solid red;
 }
 
 .footer_wrapper .copyright-section {
@@ -696,6 +711,8 @@ section {
 .distributors .contact-form .form-control:focus {
     outline: none;
     box-shadow: none;
+    border: 2px solid blue;
+
 }
 
 .contact .contact-form .form-control::placeholder,

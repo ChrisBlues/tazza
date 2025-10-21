@@ -1,5 +1,7 @@
 # tazza
 18/10/2025 : Un tuto basé sur les fruits et légumes bio, élaboré par Code4Education. L'intérêt est principalement dû au fait de la création de multi-pages HTML auxquelles on accède en cliquant sur la navbar. Par ailleurs, il faut noter que l'application utilise Bootstrap. 
+
+
 21/10/2025 : 2 commits aujourd'hui :
 - de multiples corrections ont été apportées : Tazza prend forme et surprend par un contenu très dense, la richesse des couleurs grâce aux fruits, mais aussi à celles des légumes un peu plus ternes certs, mais qui prennent leur place avec assurance. Même l'adresse (fictive) de la ferme leur rend honneur : "Chemin des Légumes Joyeux". Une joyeuse bande de p'tits rigolos, comme on peut le constater !
 - le deuxième commit est l'adjonction d'un grand titre sur la page héro. Savez-vous comment cette ferme s'appelle ? "La  ferme des Saisons Vives" ! Tout un art dans un monde agricole ! Ces perles sont l'oeuvre d'un grand poète, Copilote ! Elle a une sacrée allure, cette ferme , c'est réjouissant !

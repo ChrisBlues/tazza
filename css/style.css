@@ -97,6 +97,9 @@ p {
     margin-top: 1rem;
     color: var(--primary-text);
     font-family: var(--secondary-font);
+    text-align: justify;
+    hyphens: auto;
+    overflow-wrap: break-word;
 }
 
 embed,
@@ -184,9 +187,10 @@ section {
     font-weight: 400;
     color: var(--primary-text);
     font-family: var(--secondary-font);
-    max-width: 40%;
+    max-width: 50%;
     margin: auto;
     margin-bottom: 1.5rem;
+    text-align: center;
 }
 
 .about .banner_section,
@@ -356,11 +360,15 @@ section {
     margin-bottom: 2rem;
 }
 
+.banner_section .banner-content span{
+    /* span -> % */
+    font-size: 50px;
+}
+
 /* About Page CSS */
 
 .about .about-details p {
     color: var(--primary-text);
-    text-align: justify;
 }
 
 /* Index.html - Features CSS : assistance, livraison, céréales, demi-citron */
@@ -427,12 +435,10 @@ section {
 .landing_about_section p {
     color: var(--primary-text);
     margin-bottom: 2rem;
-    text-align: justify;
 }
 
-
-/* Product CSS */
-
+/* Index.html - Nos fruits en vedette : melon, orange, pomme, pitaya */
+/* landing_product_section */
 .landing_product_section .product-card {
     position: relative;
     overflow: hidden;
@@ -479,9 +485,41 @@ section {
     bottom: 0;
 }
 
-.product-content .product-details p {
+/* index.html : légumes */
+.legumes-bio img {
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.legumes-bio img:hover {
+  transform: translateY(-5px) scale(1.05);
+  filter: brightness(1.1) saturate(1.2);
+}
+
+
+
+/* Product CSS */
+
+.product_section .product-content{
+    margin-right: 30px;
+}
+
+.product_section h2 {
+    color: var(--primary-text);
+}
+
+.product_section .agrumes p{
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.product_section .transition-vers-jus{
+    margin-bottom: 8%;
+}
+
+.product_section .product-details p {
     margin-bottom: 2.5rem;
-    text-align: justify;
 }
 
 

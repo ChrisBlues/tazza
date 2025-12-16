@@ -29,3 +29,4 @@ window.addEventListener('scroll', () => {
     footer.classList.remove('visible');
   }
 });
+
